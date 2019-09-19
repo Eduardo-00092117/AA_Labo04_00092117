@@ -4,7 +4,6 @@
 using namespace std;
 
 
-
 void swap(int* a, int* b){
     int t = *a;
     *a = *b;
@@ -73,10 +72,6 @@ void maximo(int T, int n = 1){
 }
 
 int main(int argc, char** argv) {
-    
-    int arr[] = {10, 7, 8, 9, 1, 5};
-    int hola;
-    
     int T;
     
     cout << "Cuantos casos quiere probar: ";
